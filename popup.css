@@ -1,0 +1,27 @@
+@keyframes x{
+	from{width:50px;height:50px;vertical-align:top;}
+	to{width:250px;height:250px;top:110px;vertical-align:top;}
+
+}
+
+#noonetake:hover{
+visibility:visible;
+display:block;
+}
+@keyframes y{
+	from{right:150px;}
+	to{right:40px;}
+}
+
+#iu1wrhgur2hgiuhre3giuer5hg:hover{
+animation: x 2s forwards;
+
+
+}
+#iu1wrhgur2hgiuhre3giuer5hg:hover ~ #demo{
+animation: y 2s forwards;
+
+}
+
+
+
